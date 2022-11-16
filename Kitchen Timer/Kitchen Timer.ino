@@ -322,8 +322,8 @@ REMAINING:
     Min = 0;
     Sec = 0;
     lcd.clear();
-    delay(1250);
     Serial.println("Cancelled.");
+    delay(1250);
     digitalWrite(RED, LOW);
     goto SETTINGS; // goes back the timer settings
   }
